@@ -4,4 +4,6 @@
 </svg>
 --}}
 
-<img src="{{ asset('logo.png') }}" alt="Logo" class="h-16 w-16 bg-gray-100 dark:bg-gray-900">
+<img src="{{ asset('iperf.svg') }}" alt="Logo" class="h-8 w-8">
+
+<!-- <img src="{{ asset('iperf.svg') }}" alt="Logo" style="height: 40px; width: 40px;"> -->
