@@ -55,7 +55,7 @@ class CustomerUserController extends Controller
             ]) ? $orderBy : 'id',
             in_array($direction, ['asc', 'desc']) ? $direction : 'asc'
         )
-                ?->withCount('tickets')
+                //?->withCount('tickets')
                 ?->with([
                     'contract' => fn ($query) => $query->select([
                         'id',
