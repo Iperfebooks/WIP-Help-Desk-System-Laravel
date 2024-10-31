@@ -33,6 +33,7 @@
     "Delete Account": "Deletar Conta",
     "Disable": "Desabilitar",
     "E-Mail Address": "E-mail",
+    "Email address": "Endereço de e-mail",
     "Email Address": "Endereço de e-mail",
     "Email Password Reset Link": "Enviar link para redefinir senha por e-mail",
     "Enable": "Habilitar",
@@ -192,6 +193,7 @@
     "New customer": "Novo cliente",
     "Contract info": "Dados do contrato",
     "Customer users": "Usuários de clientes",
+    "User list": "Lista de usuários",
     "Users of customer": "Usuários do cliente",
     "Customer user": "Usuário de cliente",
     "New customer user": "Novo usuário de cliente",
@@ -214,5 +216,9 @@
     "Total of customers": "Total de usuários",
     "Users": "Usuários",
     "users": "usuários",
-    "to": "até"
+    "to": "até",
+    "Companies": "Empresas",
+    "List of companies": "Lista de empresas",
+    "New company": "Nova empresa",
+    "Choose a option": "Escolha uma opção"
 }

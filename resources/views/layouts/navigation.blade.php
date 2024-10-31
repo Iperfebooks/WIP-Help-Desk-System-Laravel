@@ -25,7 +25,7 @@
                     <x-dropdown align="right" width="48">
                         <x-slot name="trigger">
                             <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
-                                <div>{{ __('Contracts') }}</div>
+                                <div>{{ __('Companies') }}</div>
 
                                 <div class="ms-1">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -37,11 +37,11 @@
 
                         <x-slot name="content">
                             <x-dropdown-link :href="route('contracts.index')">
-                                {{ __('Contracts') }}
+                                {{ __('List of companies') }}
                             </x-dropdown-link>
 
                             <x-dropdown-link :href="route('contracts.create')">
-                                {{ __('New contract') }}
+                                {{ __('New company') }}
                             </x-dropdown-link>
                         </x-slot>
                     </x-dropdown>
@@ -49,7 +49,7 @@
                     <x-dropdown align="right" width="48">
                         <x-slot name="trigger">
                             <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
-                                <div>{{ __('Customer users') }}</div>
+                                <div>{{ __('Users') }}</div>
 
                                 <div class="ms-1">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -61,11 +61,11 @@
 
                         <x-slot name="content">
                             <x-dropdown-link :href="route('customers.users.index')">
-                                {{ __('Customer users') }}
+                                {{ __('User list') }}
                             </x-dropdown-link>
 
                             <x-dropdown-link :href="route('customers.users.create')">
-                                {{ __('New customer') }}
+                                {{ __('New user') }}
                             </x-dropdown-link>
                         </x-slot>
                     </x-dropdown>
@@ -128,7 +128,7 @@
                 {{ __('Contracts') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('customers.users.index')" :active="request()->routeIs('customers.index')">
-                {{ __('Customer users') }}
+                {{ __('Users') }}
             </x-responsive-nav-link>
         </div>
 
