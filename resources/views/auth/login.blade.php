@@ -21,7 +21,7 @@
                 class="inline-flex items-center me-5 cursor-pointer"
                 x-show="loginOptions && loginOptions?.length"
             >
-                <span class="me-3 text-sm font-medium text-gray-900 dark:text-gray-300">@lang('Customer')</span>
+                <span class="me-3 text-sm font-medium text-gray-900 dark:text-gray-300">@lang('User')</span>
                 <input
                     type="checkbox"
                     data-name="loginAs"
