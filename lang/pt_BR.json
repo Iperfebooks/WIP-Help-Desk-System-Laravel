@@ -218,8 +218,11 @@
     "users": "usuários",
     "to": "até",
     "Companies": "Empresas",
+    "Company": "Empresa",
     "List of companies": "Lista de empresas",
-    "List of companie": "Lista de empresa",
+    "Company list": "Lista de empresa",
     "New company": "Nova empresa",
-    "Choose a option": "Escolha uma opção"
+    "Choose a option": "Escolha uma opção",
+    "Choose a company": "Escolha uma empresa",
+    "No company": "Sem empresa"
 }

@@ -132,14 +132,14 @@
                                 </div>
 
                                 <div class="flex flex-col">
-                                    <label for="contract_id" class="block text-sm font-medium text-gray-900 dark:text-white">@lang('Contract')</label>
+                                    <label for="contract_id" class="block text-sm font-medium text-gray-900 dark:text-white">@lang('Company')</label>
 
                                     <select
                                         x-model="contractId"
                                         x-on:change="submitForm"
                                         id="contract_id"
                                         name="contract_id" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                        <option value="">@lang('Choose a contract')</option>
+                                        <option value="">@lang('Choose a company')</option>
                                         <option
                                             value="all"
                                             @selected(request('contract_id') == 'all')
@@ -147,7 +147,7 @@
                                         <option
                                             value="empty_only"
                                             @selected(request('contract_id') == 'empty_only')
-                                        >@lang('Empty') - (@lang('No contract'))</option>
+                                        >@lang('Empty') - (@lang('No company'))</option>
                                         @foreach ($contracts as $contract)
                                             <option
                                                 value="{{ $contract?->id }}"
@@ -304,7 +304,7 @@
                             </th>
                             <th scope="col" class="py-2 px-3 cursor-pointer" x-on:click.capture="orderBy('contract_id')">
                                 <span x-text="getArrowText('contract_id')"></span>
-                                {{ __('Contract') }}
+                                {{ __('Company') }}
                             </th>
                             <th scope="col" class="py-2 px-3 cursor-pointer" x-on:click.capture="orderBy('email')">
                                 <span x-text="getArrowText('email')"></span>
