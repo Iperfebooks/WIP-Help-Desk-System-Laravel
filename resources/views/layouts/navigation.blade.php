@@ -125,7 +125,7 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('contracts.index')" :active="request()->routeIs('contracts.index')">
-                {{ __('Contracts') }}
+                {{ __('Companies') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('customers.users.index')" :active="request()->routeIs('customers.index')">
                 {{ __('Users') }}
