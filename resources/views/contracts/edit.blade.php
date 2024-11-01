@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Contract') }}
+            {{ __('Company') }}
         </h2>
     </x-slot>
 
@@ -13,7 +13,7 @@
                 <x-slot:triggers class="font-bold">
                     <x-tiago-f2.tw-tab.tab-trigger
                         tabId="contract"
-                        :label="__('Contract')"
+                        :label="__('Company')"
                     />
                     {{--
                     <x-tiago-f2.tw-tab.tab-trigger
@@ -33,7 +33,7 @@
                 <x-slot:items class="font-bold">
                     <x-tiago-f2.tw-tab.tab-item
                         tabId="contract"
-                        :label="__('Contract')"
+                        :label="__('Company')"
                     >
                         <div class="p-4 sm:p-8 bg-white dark:bg-gray-800 shadow sm:rounded-lg">
                             <div class="max-w-xl">
