@@ -134,6 +134,7 @@
     "Customers": "Clientes",
     "customers": "clientes",
     "Edit customer": "Editar cliente",
+    "Customer Resources": "Recursos do Usuário",
     "dashboard": "painel",
     "Color change": "Alterar cor",
     "Switch Theme": "Alterar tema",
@@ -190,6 +191,7 @@
     "No contract": "Sem contrato",
     "New contract": "Novo contrato",
     "New user": "Novo usuário",
+    "User": "Usuário",
     "New customer": "Novo cliente",
     "Contract info": "Dados do contrato",
     "Customer users": "Usuários de clientes",
@@ -224,5 +226,8 @@
     "New company": "Nova empresa",
     "Choose a option": "Escolha uma opção",
     "Choose a company": "Escolha uma empresa",
-    "No company": "Sem empresa"
+    "No company": "Sem empresa",
+    "Company info": "Informação da empresa",
+    "Other": "Outro",
+    "User information": "Informações do usuário"
 }
