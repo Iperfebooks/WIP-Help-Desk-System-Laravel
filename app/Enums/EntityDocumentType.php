@@ -13,7 +13,7 @@ enum EntityDocumentType: int
         return match ($this) {
             EntityDocumentType::CPF => 'CPF',
             EntityDocumentType::CNPJ => 'CNPJ',
-            EntityDocumentType::OTHER => 'Other',
+            EntityDocumentType::OTHER => __('Other'),
             default => $this->name ?? null,
         };
     }
